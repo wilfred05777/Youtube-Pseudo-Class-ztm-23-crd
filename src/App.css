@@ -1,3 +1,31 @@
+button{
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #92f2ed;
+  border-style: none;
+  border-radius: 1rem;
+  font-weight: 500;
+}
+/* old */
+/* button:hover, button:focus{
+  background-color: #29f4e9;
+  color: #fff;
+} */
+/* new css pseudo */
+button:is(:hover, :hover){
+  background-color: #29f4e9;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
